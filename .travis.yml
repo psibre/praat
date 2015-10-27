@@ -1,0 +1,2 @@
+before_script: cp makefiles/makefile.defs.linux.alsa ./makefile.defs && mv external/portaudio external/portaudio2014 && mv external/portaudio2007 external/portaudio
+script: make
